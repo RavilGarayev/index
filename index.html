@@ -85,7 +85,7 @@
   <div id="main">
     <h1>Онлайн Магазин</h1>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDGoolcplOfJuSH7zahMDwSW6_4lEJSTX0UAv5UCPZQ&s">
-    <p>Текст Текст Текст Текст УРААА</p> 
+    <p>Текст Текст Текст Текст</p> 
     <button id="buy">Купить</button>
   </div>
   <form id="form">
@@ -100,7 +100,7 @@
     let tg = window.Telegram.WebApp;
     let buy = document.getElementById("buy")
     let order = document.getElementById("order")
-    tx.expand();
+    tg.expand();
 
     buy.addEventListener("click", () =>{
       document.getElementById("main").style.display = "none";
